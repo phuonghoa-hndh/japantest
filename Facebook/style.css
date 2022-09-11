@@ -1,0 +1,74 @@
+body {
+    background: #EAEFEF;
+}
+.wrapper {
+    display: flex;
+}
+img{
+    width: 250px;
+    margin-top: 160px;
+    margin-left: 150px;
+}
+h2 {
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-left: 170px;
+    margin-top:-10px;
+    width: 495px;
+    font-size: 27px;
+}
+.right-top{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 120px;
+    display: grid;
+}
+input {
+    padding: 12px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+
+}
+btn-login {
+    padding: 12px 10px;
+    border: 0px;
+    background: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.a-forgot_password{
+    color: #1877f2;
+    justify-self: center;
+    font-family: inherit;
+}
+.btn-signup {
+
+}
+.create-page{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.right-bottom {
+    margin-top: 20px;
+}
+input:focus {
+    border: 1px solid #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+.btn-login:hover {
+    background: #166fe5;
+    cursor: pointer;
+}
+.btn-signup:hover {
+    background: #42a52a;
+    cursor: pointer;
+}
+.create-page:hover {
+    text-decoration: inherit;
+}
